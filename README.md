@@ -1,13 +1,13 @@
 
 # Scrape all lyrics by an artist from songtextemania.com 
 
-This is a simple script that downloads all lyrics off an artist page from the website songtextemania.com and optionally writes them to disk. The data is formatted as a list of dictionary, where each entry in the list represents a song, and where each song dictionary contains the song title, url and lyrics.
+This is a simple script that downloads all lyrics off an artist page from the website songtextemania.com and optionally writes them to disk using the filename given on the commandline. The data is formatted as a list of dictionaries, where each entry in the list represents a song, and where each song dictionary contains the song title, url and lyrics.
 
 
 ### Usage
 
 ~~~
-get-lyrics --json filename artist-url
+python get-lyrics.py --json filename artist-url
 ~~~
 
 
